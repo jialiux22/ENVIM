@@ -17,22 +17,14 @@ Input 1, 2, 3, and 4 should be normalized into relative abundance and in CSV fil
 Sample files of inputs and outputs are provided into the same directory.
 
 Inputs:
-
-1.Microbial training data
-
-2.Microbial testing data
-
-3.Metabolite training data
-
-4.Metabolite testing data
-
-5.Seed number (default: 1234)
-
-6.Number of fold for random forest model (default: 10)
-
-7.Number of fold for ENVIM (default: 10)
-
-8.Output directory (default: same directory as the code)
+1. Microbial training data
+2. Microbial testing data
+3. Metabolite training data
+4. Metabolite testing data
+5. Seed number (default: 1234)
+6. Number of fold for random forest model (default: 10)
+7. Number of fold for ENVIM (default: 10)
+8. Output directory (default: same directory as the code)
 
 Output:
 
