@@ -27,12 +27,9 @@ Inputs:
 8. Output directory (default: same directory as the code)
 
 Output:
-
-1.Summary table (including training spearman correlation, training mean square error, testing spearman correlation, testing mean square error, and running time in minutes)
-
-2.Training weight matrix
-
-3.Testing weight matrix
+1. Summary table (including training spearman correlation, training mean square error, testing spearman correlation, testing mean square error, and running time in minutes)
+2. Training weight matrix
+3. Testing weight matrix
 
 We can run the ENVIM in R or bash.
 
