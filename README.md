@@ -27,8 +27,11 @@ Inputs:
 8.Output directory (default: same directory as the code)
 
 Output:
+
 1.Summary table (including training spearman correlation, training mean square error, testing spearman correlation, testing mean square error, and running time in minutes)
+
 2.Training weight matrix
+
 3.Testing weight matrix
 
 We can run the ENVIM in R or bash.
@@ -37,13 +40,21 @@ Run software on R:
 We will run ENVIM.R file in R. 
 Sample code: 
 source(paste0(getwd(),"/ENVIM.R"))
+
 ENVIM(microbio.train = microbio.train,
+
       microbio.test = microbio.test,
+      
       metab.train = metab.train,
+      
       metab.test = metab.test,
+      
       seed = 1234,
+      
       outputdirectory = out,
+      
       fold_rf = 10,
+      
       fold_ENVIM = 10)
 
 Run software on bash:
