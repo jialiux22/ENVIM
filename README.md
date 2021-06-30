@@ -18,12 +18,19 @@ Sample files of inputs and outputs are provided into the same directory.
 
 Inputs:
 1.Microbial training data
+
 2.Microbial testing data
+
 3.Metabolite training data
+
 4.Metabolite testing data
+
 5.Seed number (default: 1234)
+
 6.Number of fold for random forest model (default: 10)
+
 7.Number of fold for ENVIM (default: 10)
+
 8.Output directory (default: same directory as the code)
 
 Output:
@@ -39,9 +46,9 @@ We can run the ENVIM in R or bash.
 Run software on R:
 We will run ENVIM.R file in R. 
 Sample code: 
-source(paste0(getwd(),"/ENVIM.R"))
+      source(paste0(getwd(),"/ENVIM.R"))
 
-ENVIM(microbio.train = microbio.train,
+      ENVIM(microbio.train = microbio.train,
 
       microbio.test = microbio.test,
       
@@ -60,7 +67,8 @@ ENVIM(microbio.train = microbio.train,
 Run software on bash:
 We will run ENVIM_predict.R on bash.
 Sample code: 
-Rscript ENVIM_predict.R -a micro.train.csv -b micro.test.csv -c metab.train.csv -d metab.test.csv -e 1234 -f 10 -g 10 -o your_output_directory
+
+      Rscript ENVIM_predict.R -a micro.train.csv -b micro.test.csv -c metab.train.csv -d metab.test.csv -e 1234 -f 10 -g 10 -o your_output_directory
 
 
 ENVIM_predict function is only to predict metabolite testing data by using the model of microbial training data and metabolite training data while we do not have metabolite testing data.
