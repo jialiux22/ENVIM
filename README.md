@@ -83,13 +83,12 @@ Output:
 4. Predicting metabolite data
 
 Sample code in R:
-source(paste0(getwd(),"/ENVIM.R"))
 
-
-ENVIM_predict(microbio.train = microbio.train,
-      microbio.test = microbio.test,
-      metab.train = metab.train,
-      seed = 1234,
-      outputdirectory = out,
-      fold_rf = 10,
-      fold_ENVIM = 10)
+       source(paste0(getwd(),"/ENVIM.R"))
+       ENVIM_predict(microbio.train = microbio.train,
+       microbio.test = microbio.test,
+       metab.train = metab.train,
+       seed = 1234,
+       outputdirectory = out,
+       fold_rf = 10,
+       fold_ENVIM = 10)
