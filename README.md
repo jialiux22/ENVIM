@@ -75,6 +75,8 @@ Output:
 
 Sample code in R:
 source(paste0(getwd(),"/ENVIM.R"))
+
+
 ENVIM_predict(microbio.train = microbio.train,
       microbio.test = microbio.test,
       metab.train = metab.train,
